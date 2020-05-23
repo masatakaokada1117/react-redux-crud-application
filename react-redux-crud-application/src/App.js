@@ -1,7 +1,11 @@
 import React from 'react';
 
 function App() {
-  return <div><h1>Hello,world!</h1></div>;
+  return React.createElement(
+    "h1",
+    null,
+    "Hello, World!!"
+  );
 }
 
 export default App;
